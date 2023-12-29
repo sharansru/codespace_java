@@ -14,15 +14,14 @@
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
 			"version": "latest",
 			"jdkVersion": "latest",
-			"jdkDistro": "oracle"
+			"jdkDistro": "ms"
 		}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"streetsidesoftware.code-spell-checker",
 				"vscjava.vscode-java-pack",
-				"GitHub.copilot"
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
